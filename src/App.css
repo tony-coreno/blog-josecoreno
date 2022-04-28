@@ -10,8 +10,6 @@
   margin-top: 15px;
   padding: 20px 30px;
   position: relative;
-  z-index: 99;
-  opacity: 0.85;
 }
 
 .contenedor.header {

@@ -1,19 +1,18 @@
 import React from 'react'
-
 const Profile = () => {
   return (
     <>
-      <div className="container mt-4">
+      <div className="container">
         <div className="contenido-descripcion">
           <div>
             <div>
               <br />
               <img src="./img/tony.jpg" alt="jose" className="img" />
+              <p>José Antonio Coreño</p>
             </div>
             <div className="container">
               <div class="row">
                 <div class="col">
-                  <hr />
                   <h1 className="titulo">
                     <span>Software</span>
                     <span>Tester</span>
