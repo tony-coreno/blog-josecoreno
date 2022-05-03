@@ -7,10 +7,13 @@ const Proyectos = () => {
       <div>
         <div class="slider">
           <div id="slide1">
-            <Imagen src="https://res.cloudinary.com/mundo-sistemas-tv/image/upload/v1651087086/POS-_otgqoq.png" />
+            <Imagen src="https://res.cloudinary.com/mundo-sistemas-tv/image/upload/v1651164580/clima_tksrg1.jpg" />
           </div>
           <div id="slide2">
-            <img src="https://res.cloudinary.com/mundo-sistemas-tv/image/upload/v1649034757/sample.jpg" />
+            <Imagen src="https://res.cloudinary.com/mundo-sistemas-tv/image/upload/v1651165341/heroes-react_cvsohp.jpg" />
+          </div>
+          <div id="slide3">
+            <Imagen src="https://res.cloudinary.com/mundo-sistemas-tv/image/upload/v1651174407/pos-pord_sy3noo.jpg" />
           </div>
         </div>
         <ul class="menu">
@@ -19,6 +22,9 @@ const Proyectos = () => {
           </li>
           <li>
             <a href="#slide2">2</a>
+          </li>
+          <li>
+            <a href="#slide3">3</a>
           </li>
         </ul>
       </div>
@@ -30,12 +36,15 @@ const Proyectos = () => {
 };
 
 const Imagen = styled.img`
-  border-radius: 40px;
+  border-radius: 10px;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left top;
 `;
 
 const Contenedorapp = styled.div`
-  max-width: 1400px;
+  //max-width: 1400px;
   padding: 5px;
   width: 100%;
   display: grid;

@@ -22,8 +22,7 @@ const AcercaDe = () => {
               <ul>
                   <li>Cypress</li>
                   <li>Jmeter</li>
-                  <li>Katalon</li>
-                  <li>Jest</li>
+                  <li>Postman</li>
               </ul>
             </article>
           </div>

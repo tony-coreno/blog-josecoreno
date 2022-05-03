@@ -7,8 +7,8 @@ const Profile = () => {
           <div>
             <div>
               <br />
-              <img src="./img/tony.jpg" alt="jose" className="img" />
-              <p>José Antonio Coreño</p>
+              <img src="./img/tony.jpg" alt="jose" className="img text-center animate__animated animate__zoomInDown" />
+              <p className='ml-2'>José Antonio Coreño</p>
             </div>
             <div className="container">
               <div class="row">
