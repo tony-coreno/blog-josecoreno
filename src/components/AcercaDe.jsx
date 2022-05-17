@@ -5,9 +5,9 @@ const AcercaDe = () => {
   return (
     <div className="container mt-2">
       <h2 className="text-center animate__animated animate__bounceInRight">José Antonio Coreño</h2>
-      <div class="container mt-4">
-        <div class="row">
-          <div class="col">
+      <div className="container mt-4">
+        <div className="row">
+          <div className="col">
             <article className="mt-4">
               <p>Soy egresado de Ingeniería en Sistemas computacionales</p>
               <p>
@@ -26,7 +26,7 @@ const AcercaDe = () => {
               </ul>
             </article>
           </div>
-          <div class="col">
+          <div className="col">
             <p className="text-center mt-4 animate__animated animate__fadeInRight">Las principales tecnologías en desarrollo qué he utilizado son:</p>
             {
                 bd.map((element, i) => {
@@ -45,7 +45,7 @@ const AcercaDe = () => {
                             <div className="progress">
                               <br />
                               <div
-                                class={element.color}
+                                className={element.color}
                                 role="progressbar"
                                 style={{ width: element.width }}
                                 aria-valuenow="25"

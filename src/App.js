@@ -25,11 +25,14 @@ function App() {
 
 const ContenedorPrincipal = styled.div`
   padding: 20px;
-  width: 100%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 1400px;
+  //background-color: #FFF;
 
 `;
 const Main = styled.main`
+  display: flex;
+  justify-content: center;
   background: #282c34;
   padding: 10px;
   border-radius: 10px;

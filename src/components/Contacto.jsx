@@ -1,10 +1,11 @@
 
+import './contacto.css'
 const Contacto = () => {
   return (
     <div className="container mt-4">
       <form>
         <div className="mb-3">
-          <label for="nombre" className="form-label">
+          <label htmlFor="nombre" className="form-label">
             Nombre
           </label>
           <input
@@ -17,7 +18,7 @@ const Contacto = () => {
           />
         </div>
         <div className="mb-3">
-          <label for="email" className="form-label">
+          <label htmlFor="email" className="form-label">
             Email
           </label>
           <input
@@ -30,7 +31,7 @@ const Contacto = () => {
           />
         </div>
         <div className="mb-3">
-          <label for="comentario" className="form-label">
+          <label htmlFor="comentario" className="form-label">
             Comentario
           </label>
           <textarea
@@ -45,6 +46,7 @@ const Contacto = () => {
           <button className="btn btn-dark">Enviar</button>
         </div>
       </form>
+
     </div>
   );
 };

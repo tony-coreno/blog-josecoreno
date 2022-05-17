@@ -5,7 +5,7 @@ const Proyectos = () => {
   return (
     <Contenedorapp className="contenedor">
       <div>
-        <div class="slider">
+        <div className="slider">
           <div id="slide1">
             <Imagen src="https://res.cloudinary.com/mundo-sistemas-tv/image/upload/v1651164580/clima_tksrg1.jpg" />
           </div>
@@ -16,7 +16,7 @@ const Proyectos = () => {
             <Imagen src="https://res.cloudinary.com/mundo-sistemas-tv/image/upload/v1651174407/pos-pord_sy3noo.jpg" />
           </div>
         </div>
-        <ul class="menu">
+        <ul className="menu">
           <li>
             <a href="#slide1">1</a>
           </li>

@@ -10,7 +10,7 @@ const Header = () => {
             Inicio
           </NavLink>
           <NavLink to="/acerca-de">Sobre mi</NavLink>
-          <NavLink to="/proyectos">Proyectos</NavLink>
+          {/* <NavLink to="/proyectos">Proyectos</NavLink> */}
           <NavLink to="/contacto">Contacto</NavLink>
         </Menu>
       </ContenedorHeader>
@@ -20,7 +20,7 @@ const Header = () => {
 
 const ContenedorHeader = styled.header`
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 `;
 
 const Menu = styled.nav`

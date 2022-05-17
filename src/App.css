@@ -1,4 +1,3 @@
-
 .contenedor {
   width: 90%;
   max-width: 1000px;
@@ -18,7 +17,7 @@
 }
 
 .barra-navegacion ul {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -50,26 +49,34 @@
 }
 
 .contenido-descripcion {
-  width: 5%;
+  width: 90%;
   display: flex;
-  height: 40%;
-  align-items: center;
-}
+  height: 80%;
+  /* align-items: center; */}
 
 .contenido-descripcion .titulo {
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
+  float: left;
 }
 
 .contenido-descripcion .titulo span:first-child {
-  font-size: 50px;
+  padding-top: 80px;
+  font-size: 40px;
   display: block;
   font-weight: 300;
 }
 
 .contenido-descripcion .titulo span:last-child {
   font-weight: 900;
-  font-size: 100px;
+  font-size: 60px;
+  /* display: block; */
+  overflow: auto;
+}
+
+.imgcenter{
+  display: flex;
+  justify-content: center;
 }
 
 .contenido-descripcion .btn-link {
@@ -84,6 +91,10 @@
   transition: 0.7s ease;
 }
 
+.alto{
+  padding-top: 70px;
+}
+
 .contenido-descripcion .btn-link:hover {
   border: 1px solid #fff;
   animation: none;
@@ -94,6 +105,11 @@
   justify-content: flex-end;
   max-width: 25%;
   border-radius: 50%;
+}
+
+.alineacion {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes parpadeo {
@@ -113,4 +129,68 @@
   50% {
     opacity: 0;
   }
+}
+
+.descripcion {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.search {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #232c34;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  padding: 10px;
+  transition: all 0.5s;
+  box-shadow: #147551;
+}
+
+.search:hover {
+  width: 300px;
+}
+
+.search:hover .search-text {
+  width: 90%;
+}
+
+.search:hover .search-icon {
+  background: #FFF;
+  color: #147551;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #147551;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px !important;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.search-icon:hover {
+  transform: scale(1.2);
+}
+
+.search-text {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0 10px;
+  width: 0;
+  height: 100%;
+  color: #000;
+  font-size: 16px;
+  transition: all 0.5s;
 }
