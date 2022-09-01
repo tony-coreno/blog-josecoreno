@@ -1,4 +1,14 @@
-/** SUSCRIBETE  */
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.anchodiv{
+    width: 60%;
+    /* background-color: #000; */
+}
+
 .suscribe{
     width: 100%;
     height: 300px;

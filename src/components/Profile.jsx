@@ -1,8 +1,9 @@
 import React from "react";
+// import Header from "./Header";
 const Profile = () => {
   return (
     <>
-      <div className=" container alineacion">
+      <div className="container alineacion">
         <div className="contenido-descripcion">
           <div className="">
           {/* <p className="text-center mt-4">José Antonio Coreño</p> */}
@@ -11,7 +12,7 @@ const Profile = () => {
               <img
                 src="./img/tony.jpg"
                 alt="jose"
-                className="img text-center animate__animated animate__zoomInDown"
+                className="img animate__animated animate__zoomInDown"
               />
             </div>
 
@@ -19,17 +20,17 @@ const Profile = () => {
               <span>Software</span>
               <span>Tester</span>
             </h1>
-            <div className="row ml-4 alto">
-              <section id="contacto" class="btn-link ml-4">
-                <div class="search">
+            <div className="ml-4 alto">
+              <section id="contacto" className="btn-link ml-4">
+                <div className="search">
                   <input
                     type="text"
                     className="search-text"
                     placeholder="antoniocoreno@outlook.com"
                     readOnly
                   />
-                  <a className="" href="#">
-                    <i class="fas fa-envelope search-icon"></i>
+                  <a className="" href="">
+                    <i className="fas fa-envelope search-icon"></i>
                   </a>
                 </div>
               </section>
@@ -45,7 +46,7 @@ const Profile = () => {
               <article className="descripcion mr-4">
                 <p></p>
                 <a
-                  href="https://www.linkedin.com/in/jose-antonio-core%C3%B1o-253681213/"
+                  href="https://www.linkedin.com/in/jos%C3%A9-antonio-core%C3%B1o-253681213/"
                   className="btn-link"
                 >
                   <img

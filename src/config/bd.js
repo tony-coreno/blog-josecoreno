@@ -3,7 +3,7 @@ export const bd = [
     {
         title: "React JS",
         width: "50%",
-        progres: "50%",
+        // progres: "50%",
         img: "https://img.icons8.com/color/48/000000/react-native.png",
         color: "progress-bar bg-info"
 
@@ -11,7 +11,7 @@ export const bd = [
     {
         title: "Node JS - Express",
         width: "40%",
-        progres: "40%",
+        // progres: "40%",
         img: "https://img.icons8.com/color/48/000000/nodejs.png",
         color: "progress-bar bg-success"
 
@@ -19,7 +19,7 @@ export const bd = [
     {
         title: "JavaScript ES6+",
         width: "60%",
-        progres: "60%",
+        // progres: "60%",
         img: "https://img.icons8.com/color/48/000000/javascript--v1.png",
         color: "progress-bar bg-warning"
 
@@ -27,7 +27,7 @@ export const bd = [
     {
         title: "Mongo DB",
         width: "30%",
-        progres: "30%",
+        // progres: "30%",
         img: "https://img.icons8.com/color/48/000000/mongodb.png",
         color: "progress-bar bg-primary"
 
