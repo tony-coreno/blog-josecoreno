@@ -15,7 +15,7 @@ const Contacto = () => {
       email,
     };
     const respuesta = await Axios.post(
-      "http://localhost:4000/blog/enviar",
+      "https://server-tony.herokuapp.com/blog/enviar",
       contacto
     );
     const mensaje = respuesta.data.comentario;
