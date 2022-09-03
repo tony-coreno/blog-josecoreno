@@ -6,7 +6,7 @@ const Profile = () => {
       <div className="container alineacion">
         <div className="contenido-descripcion">
           <div className="">
-          {/* <p className="text-center mt-4">José Antonio Coreño</p> */}
+            {/* <p className="text-center mt-4">José Antonio Coreño</p> */}
             <div className="imgcenter">
               <br />
               <img
@@ -15,12 +15,13 @@ const Profile = () => {
                 className="img animate__animated animate__zoomInDown"
               />
             </div>
-
-            <h1 className="titulo animate__animated animate__fadeInRight">
-              <span>Software</span>
-              <span>Tester</span>
-            </h1>
             <div className="ml-4 alto">
+              <div className="texto">
+                <h1 className="titulo animate__animated animate__fadeInRight">
+                  <span>Software</span>
+                  <span>Tester</span>
+                </h1>
+              </div>
               <section id="contacto" className="btn-link ml-4">
                 <div className="search">
                   <input

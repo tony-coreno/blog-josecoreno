@@ -40,7 +40,7 @@ const Contacto = () => {
           </label>
           <input
             type="text"
-            className="form-control"
+            className="form-control input"
             autoFocus
             id="nombre"
             placeholder="Ej. Juan Pérez"
@@ -54,7 +54,7 @@ const Contacto = () => {
           </label>
           <input
             type="email"
-            className="form-control"
+            className="form-control input"
             autoFocus
             id="email"
             placeholder="ejemplo@mail.com"
@@ -67,7 +67,7 @@ const Contacto = () => {
             Comentario
           </label>
           <textarea
-            className="form-control"
+            className="form-control input"
             id="comentario"
             placeholder="Envíame tu mensaje o comentario..."
             rows="5"

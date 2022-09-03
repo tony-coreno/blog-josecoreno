@@ -5,6 +5,7 @@ import Contacto from "./components/Contacto";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import styled from "styled-components";
+import Inicio from "./components/Inicio";
 function App() {
   return (
     <BrowserRouter>
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Main>
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" exact element={<Inicio />} />
           <Route path="/acerca-de" element={<AcercaDe />} />
           <Route path="/proyectos" element={<Proyectos />} />
           <Route path="/contacto" element={<Contacto />} />
@@ -33,7 +34,8 @@ const ContenedorPrincipal = styled.div`
 const Main = styled.main`
   display: flex;
   justify-content: center;
-  background: #282c34;
+  background: #0a0a0a;
+  //background: #282c34;
   padding: 10px;
   border-radius: 10px;
   //box-shadow: 0px 0px 5px rgba(129, 129, 129, 0.1);
