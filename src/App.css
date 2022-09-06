@@ -245,23 +245,21 @@
 .title h1 {
   color: #147551;
   font-size: 4vw;
-  font-weight:800;
+  font-weight: 800;
 }
 
 .title h2 {
-  color: #FFF;
+  color: #fff;
   font-size: 2.2vw;
-  font-weight:400;
+  font-weight: 400;
 }
 
-
-.input::placeholder{
- /* background-color: red; */
- color: #25427a;
- font-size: 18px;
- font-style: italic; 
+.input::placeholder {
+  /* background-color: red; */
+  color: #25427a;
+  font-size: 18px;
+  font-style: italic;
 }
-
 
 @keyframes parpadeo {
   0%,
@@ -281,3 +279,47 @@
     opacity: 0;
   }
 }
+
+@media (max-width: 650px) {
+  .info {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #fff; */
+  }
+
+  .img {
+    max-width: 50%;
+    border-radius: 50%;
+  }
+
+  .contene {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* border: 1px solid #fff; */
+  }
+  .contene a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title h1 {
+    color: #147551;
+    font-size: 9vw;
+    font-weight: 800;
+  }
+
+  .title h2 {
+    color: #fff;
+    font-size: 6vw;
+    font-weight: 400;
+  }
+
+  .anchodiv {
+    width: 100%;
+  }
+
+
+}
+

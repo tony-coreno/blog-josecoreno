@@ -16,15 +16,16 @@ const Inicio = () => {
           </div>
 
           <div className="contene">
-            <a href="" className="correo">
+            <a href="#" className="correo" data-toggle="tooltip" data-placement="right" title="antoniocoreno@outlook.com">
               <img src="https://img.icons8.com/color/48/000000/new-post.png" />
             </a>
-            <a href="https://github.com/tony-coreno" className="correo">
+            <a href="https://github.com/tony-coreno" className="correo" data-toggle="tooltip" data-placement="right" title="Tony-Coreno">
             <img src="https://img.icons8.com/ios/50/FAB005/github--v1.png"/>
             </a>
             <a
               href="https://www.linkedin.com/in/jos%C3%A9-antonio-core%C3%B1o-253681213/"
               className="correo"
+              data-toggle="tooltip" data-placement="right" title="José Antonio Coreño"
             >
               <img
                 src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png"
