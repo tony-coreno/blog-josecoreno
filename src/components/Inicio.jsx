@@ -7,6 +7,7 @@ const Inicio = () => {
             src="./img/tony.jpg"
             alt="Antonio"
             className="img animate__animated animate__zoomInDown"
+            data-toggle="tooltip" data-placement="right" title="José Antonio Coreño"
           />
         </div>
         <div className="info">

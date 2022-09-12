@@ -13,7 +13,7 @@ const AcercaDe = () => {
             <article className="mt-4">
               <p>Soy egresado de Ingeniería en Sistemas computacionales</p>
               <p>
-                Actualmente laboro como Software Tester en el área de QA,
+                Actualmente laboro como Tester Analyst en el área de QA,
                 utilizando una metodología Ágil Scrum.
               </p>
               <p>

@@ -1,3 +1,13 @@
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  /* background: linear-gradient(#c96cc9, orange); */
+  background: linear-gradient(orange, #147142);
+  border-radius: 10px;
+}
+
 .contenedor {
   width: 90%;
   max-width: 1000px;
@@ -319,7 +329,4 @@
   .anchodiv {
     width: 100%;
   }
-
-
 }
-
